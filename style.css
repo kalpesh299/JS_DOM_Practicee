@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+    background-color: black;
+}
+
+#inputfield{
+    padding:0.8em;
+    border-radius: 10px;
+    font-weight: 700;
+    color: rgb(255, 0, 43);
+}
+#btn{
+    padding:0.8em;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+
+.result_container{
+    margin-top: 3vh;
+}
+.result_container p{
+    color:greenyellow;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    border-bottom: 1px solid rgb(213, 205, 205);
+    font-size: 2em;
+}
